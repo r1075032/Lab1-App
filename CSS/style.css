@@ -149,6 +149,11 @@ p {
     opacity: 1;
 }
 
+.Active {
+    border: 5px solid #FFC53E;
+    
+}
+
 .products-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -204,9 +209,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-top: 0;
-    margin-bottom: 0;
 
 }
 
@@ -245,11 +247,9 @@ align-items: center;
     display: flex;
     padding-left: 0;
     align-items: center;
-    justify-content: space-between;
-    margin-right: 200px;
     margin-bottom: 5px;
     margin-top: 5px;
-    text-align: left;
+    text-align: center;
     gap: 5px;
 
 }
@@ -265,7 +265,6 @@ align-items: center;
     align-items: center; 
     justify-content: center;
     padding: 20px;
-    margin-right: 40px;
 }
 
 .add-to {
@@ -276,8 +275,7 @@ align-items: center;
     display: flex;
     align-items: center; 
     justify-content: center;
-    padding: 8px;
-    margin-right: 47px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -328,4 +326,10 @@ align-items: center;
     color: #0c3c3b;
     padding-top: 0;
     margin-bottom: 10px;
+}
+
+.Add-products {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #FFC53E;
 }
