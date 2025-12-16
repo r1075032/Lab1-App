@@ -16,8 +16,13 @@ h1 {
     margin-top: 0;
     padding-top: 55px;
     color: #F9FAFB;
-    
+}
 
+.intro {
+    font-size: 32px;
+    margin-bottom: -50px;
+    margin-top: 50px;
+    color: #0c3c3b;
 }
 
 h2, h3 {
@@ -29,7 +34,7 @@ p {
     font-size: 15px;
     color: #1d1d1d;
     margin-top: 0px;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 }
 
 .about-heading {
@@ -47,19 +52,20 @@ p {
 
 .intro-description {
     text-align: center;
-    padding-bottom: 37px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px ;
 }
 
 .logo {
-    text-align: center;
-    background-color: #0c3c3b;
-    width: 412px;
-    padding-top: 7.8px;
-    padding-bottom: 7.8px;
+    padding-top: 58.3px;
 }
 
+.logo-image {
+    text-align: center;
+    align-items: center;
+}
 
 .image1 {
     height: 309.8px;
@@ -102,7 +108,7 @@ p {
 
 .grid {
     display: flex;
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 100px;
     margin-left: 20px;
     margin-right: 20px;
@@ -194,7 +200,11 @@ p {
 }
 
 .heading-cart {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin-top: 0;
     margin-bottom: 0;
 
@@ -211,8 +221,9 @@ a {
 
 .Large {
 font-size: 40px;
-text-align: center;
-padding: 18.4px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .T-shirt {
@@ -287,8 +298,14 @@ padding: 18.4px;
 
 .event-grid {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 100px;
+}
+
+.study {
+    margin-bottom: 10px;
+    font-weight: 550;
+    color: #0c3c3b;
 }
 
 .icon-event {
@@ -300,9 +317,9 @@ padding: 18.4px;
     font: bolder;
     color: #F9FAFB;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 20px;
     margin-top: 10px;
-    margin-bottom: -20px;
+    margin-bottom: 50px;
     background-color: #0c3c3b;
     border-radius: 20px;
 }
